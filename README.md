@@ -8,6 +8,8 @@ List and Display all the Breaking Bad Characters. Powered by React , Create Reac
 
 # Live Demo 
 
+(https://breaking-bad-list.netlify.app/)
+
 #  Features!
 
 -  Get Character Details
