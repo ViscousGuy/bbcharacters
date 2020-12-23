@@ -26,6 +26,12 @@ List and Display all the Breaking Bad Characters. Powered by React , Create Reac
 (http://breakingbadapi.com/)
 
 
+### Routes
+
+- /  - Homepage
+- /character?id={char_id} - Display specific character details
+
+
 
 ### Tech
 
