@@ -1,0 +1,14 @@
+button {
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  color: #000;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #7fccde;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

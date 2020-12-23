@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./card.styles.css";
 
@@ -13,10 +14,31 @@ export const Card = (props) => (
       src={props.character.img}
       width="180"
       height="180"
+      className="center"
     />
-    <h2> {props.character.name} </h2>
-    <p> {props.character.birthday} </p>
-    <p> {occupationList(props.character.occupation)} </p>
-    <p> {props.character.status} </p>
+    <section>
+      <h2 className="char-name"> {props.character.name} </h2>
+      <table>
+        <tbody>
+          <tr>
+            <th scope="row">Born on</th>
+            <td>{props.character.birthday}</td>
+          </tr>
+          <tr>
+            <th scope="row">Occupation</th>
+            <td>
+              <ul> {occupationList(props.character.occupation)} </ul>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Status</th>
+            <td>{props.character.status}</td>
+          </tr>
+        </tbody>
+      </table>
+      <Link className="link-to" to={`/character?id=${props.character.char_id}`}>
+        Read More...
+      </Link>
+    </section>
   </div>
 );

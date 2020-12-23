@@ -1,0 +1,6 @@
+.button-list {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5%;
+}

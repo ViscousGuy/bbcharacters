@@ -1,7 +1,7 @@
 import React from "react";
-
 import { Button } from "./../button/button.component";
 
+import "../button-list/button-list.styles.css";
 export const ButtonList = (props) => {
   let rows = [];
   let totalButtons = Math.ceil(props.totalCharacters / 10);

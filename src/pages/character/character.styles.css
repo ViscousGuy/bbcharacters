@@ -1,0 +1,70 @@
+.character-wrapper {
+  height: 60vh;
+  width: 70vw;
+  margin: 0 auto;
+  background: rgba(124, 209, 94, 0.3);
+  background: -webkit-radial-gradient(
+    center,
+    rgba(124, 209, 94, 1),
+    rgba(106, 240, 66, 1)
+  );
+  background: -moz-radial-gradient(
+    center,
+    rgba(124, 209, 94, 1),
+    rgba(106, 240, 66, 1)
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(124, 209, 94, 1),
+    rgba(106, 240, 66, 1)
+  );
+  text-shadow: 4px 4px 8px rgba(150, 150, 150, 1);
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  box-shadow: 11px 15px 10px 3px rgba(0, 0, 0, 0.71);
+}
+
+.appearance {
+  letter-spacing: 4px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.quotes {
+  margin-top: 20%;
+}
+blockquote p {
+  display: inline;
+}
+
+.char-img {
+  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.character-wrapper:hover {
+  transform: scale(1.05);
+}
